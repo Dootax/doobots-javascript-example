@@ -1,0 +1,26 @@
+{
+  "name": "doobots-javascript-example",
+  "version": "1.0.0",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest",
+    "local": "cpx \"input.json\" dist && cpx \"src/**/*.js\" dist && doobots-run"
+  },
+  "dependencies": {
+    "doobots": "^0.1.0"
+  },
+  "devDependencies": {
+    "cpx2": "^8.0.0",
+    "cross-env": "^10.0.0",
+    "jest": "^29.7.0"
+  },
+  "keywords": [
+    "dooBots",
+    "javascript",
+    "example"
+  ],
+  "author": "Dootax",
+  "license": "MIT",
+  "description": "Exemplo de script JavaScript para ser executado no DooBots"
+}
