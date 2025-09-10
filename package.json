@@ -8,7 +8,7 @@
     "local": "cpx \"input.json\" dist && cpx \"src/**/*.js\" dist && doobots-run"
   },
   "dependencies": {
-    "doobots": "^0.1.0"
+    "doobots": "^1.0.0"
   },
   "devDependencies": {
     "cpx2": "^8.0.0",
