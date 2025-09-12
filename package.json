@@ -9,7 +9,7 @@
     "package": "doobots-package"
   },
   "dependencies": {
-    "doobots": "^1.0.2"
+    "doobots": "^1.0.3"
   },
   "devDependencies": {
     "cpx2": "^8.0.0",
